@@ -17,17 +17,8 @@ namespace Common.Extensions.Library
         }
 
         public static object FromJson<T>(this string json)
-        {
-            try
-            {
-                JsonDocument.Parse(json);
-
-                return JsonSerializer.Deserialize<T>(json);
-            }
-            catch (JsonException)
-            {
-                return Enumerable.Empty<T>();
-            }
+        {            
+            return JsonSerializer.Deserialize<T>(json);
         }
 
         public static string LoadFromFile(this string path)
