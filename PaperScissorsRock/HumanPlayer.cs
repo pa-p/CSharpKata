@@ -6,14 +6,10 @@ using System.Threading.Tasks;
 
 namespace PaperScissorsRock
 {
-    public class GameManager
+    internal class HumanPlayer : IPlayer
     {
-        Random _random = new Random();
-
-
-        public RoundResult PlayRound()
+        public Choice GetChoice()
         {
-            // Player1 (Human)
             Choice p1;
             do
             {
@@ -40,21 +36,7 @@ namespace PaperScissorsRock
                 }
             } while (true);
 
-            // Player2 (Computer)
-            Choice p2 = (Choice)_random.Next(0, 3);
-            Console.WriteLine($"Player 2 picked {p2}");
-
-            if (p1 == p2)
-                return RoundResult.Draw;
-
-            if (p1 == Choice.Rock && p2 == Choice.Scissors ||
-                p1 == Choice.Paper && p2 == Choice.Rock ||
-                p1 == Choice.Scissors && p2 == Choice.Paper)
-                return RoundResult.Player1Win;
-
-            return RoundResult.Player2Win;
+            return p1;
         }
-
-
     }
 }

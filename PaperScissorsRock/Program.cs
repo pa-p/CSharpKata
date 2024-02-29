@@ -1,9 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-using PaperScissorsRock;
+﻿using PaperScissorsRock;
 
-Console.WriteLine("Hello, World!");
-
-var gm = new GameManager();
+//var gm = new GameManager();
+var gm = new GameManagerDI(new HumanPlayer(), new ComputerPlayer());
 
 do
 {
