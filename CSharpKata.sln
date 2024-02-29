@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Extensions.Library",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperScissorsRock", "PaperScissorsRock\PaperScissorsRock.csproj", "{238A593A-071C-4AEC-AC6C-EBC24995890C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperScissorsRock.Tests", "PaperScissorsRock.Tests\PaperScissorsRock.Tests.csproj", "{3E660F3E-C7E2-43FE-A3F2-4D004F872245}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{238A593A-071C-4AEC-AC6C-EBC24995890C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{238A593A-071C-4AEC-AC6C-EBC24995890C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{238A593A-071C-4AEC-AC6C-EBC24995890C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E660F3E-C7E2-43FE-A3F2-4D004F872245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E660F3E-C7E2-43FE-A3F2-4D004F872245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E660F3E-C7E2-43FE-A3F2-4D004F872245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E660F3E-C7E2-43FE-A3F2-4D004F872245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
