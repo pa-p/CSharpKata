@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.Mockup.Library", "Data
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Extensions.Library", "Common.Extensions.Library\Common.Extensions.Library.csproj", "{1C27CA52-A343-4249-B3C6-45AA64B37620}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperScissorsRock", "PaperScissorsRock\PaperScissorsRock.csproj", "{238A593A-071C-4AEC-AC6C-EBC24995890C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaperScissorsRock", "PaperScissorsRock\PaperScissorsRock.csproj", "{238A593A-071C-4AEC-AC6C-EBC24995890C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperScissorsRock.Tests", "PaperScissorsRock.Tests\PaperScissorsRock.Tests.csproj", "{3E660F3E-C7E2-43FE-A3F2-4D004F872245}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaperScissorsRock.Tests", "PaperScissorsRock.Tests\PaperScissorsRock.Tests.csproj", "{3E660F3E-C7E2-43FE-A3F2-4D004F872245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{270B2E61-97EB-4684-B879-53F26C87A862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3E660F3E-C7E2-43FE-A3F2-4D004F872245}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E660F3E-C7E2-43FE-A3F2-4D004F872245}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E660F3E-C7E2-43FE-A3F2-4D004F872245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270B2E61-97EB-4684-B879-53F26C87A862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270B2E61-97EB-4684-B879-53F26C87A862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270B2E61-97EB-4684-B879-53F26C87A862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270B2E61-97EB-4684-B879-53F26C87A862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
