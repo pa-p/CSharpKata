@@ -7,8 +7,6 @@
  * in other cases print number
  */
 
-using System.Collections;
-
 var numbers = Enumerable.Range(1, 100);
 foreach (var number in numbers)
 {
@@ -17,18 +15,18 @@ foreach (var number in numbers)
         Console.WriteLine("FizzBuzz");
         continue;
     }
-    else if (number % 3 == 0)
+
+    if (number % 3 == 0)
     {
         Console.WriteLine("Fizz");
         continue;
     }
-    else if (number % 5 == 0)
+
+    if (number % 5 == 0)
     {
         Console.WriteLine("Buzz");
         continue;
     }
-    else
-    {
-        Console.WriteLine($"{number}");
-    }
+
+    Console.WriteLine($"{number}");
 }
