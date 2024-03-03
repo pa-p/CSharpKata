@@ -7,26 +7,8 @@
  * in other cases print number
  */
 
-var numbers = Enumerable.Range(1, 100);
-foreach (var number in numbers)
-{
-    if (number % 3 == 0 && number % 5 == 0)
-    {
-        Console.WriteLine("FizzBuzz");
-        continue;
-    }
+using FizzBuzz;
 
-    if (number % 3 == 0)
-    {
-        Console.WriteLine("Fizz");
-        continue;
-    }
-
-    if (number % 5 == 0)
-    {
-        Console.WriteLine("Buzz");
-        continue;
-    }
-
-    Console.WriteLine($"{number}");
-}
+IFizzBuzzTest fizzBuzzTester = new FizzBuzzTester();
+FizzBuzzTestConsolePrinter fizzBuzzConsolePrinter = new FizzBuzzTestConsolePrinter(fizzBuzzTester);
+fizzBuzzConsolePrinter.Print(1,100);
